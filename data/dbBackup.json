@@ -1,0 +1,73 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "title": "Goal Title 123",
+      "status": false,
+      "description": "description text is here",
+      "resources": "resource1, resource2",
+      "acceptanceCriteria": "acceptance criteria 1, acceptance criteria 2, acceptance criteria 3",
+      "comments": "leave some text here"
+    },
+    {
+      "id": 2,
+      "title": "Goal Title 2",
+      "status": true,
+      "description": "description text is here",
+      "resources": "resource1, resource2",
+      "acceptanceCriteria": "acceptance criteria 1, acceptance criteria 2, acceptance criteria 3",
+      "comments": "leave some text here"
+    },
+    {
+      "id": 3,
+      "title": "Goal Title 3",
+      "status": false,
+      "description": "description text is here",
+      "resources": "resource1, resource2",
+      "acceptanceCriteria": "acceptance criteria 1, acceptance criteria 2, acceptance criteria 3",
+      "comments": "leave some text here"
+    }
+  ],
+  "objectives": [
+    {
+      "id": 1,
+      "title": "Objective 1",
+      "status": "in progress",
+      "category": "Personal",
+      "description": "Lorem Ipsum",
+      "comments": "Any text",
+      "goals": "Not today, my friend"
+    },
+    {
+      "id": 2,
+      "title": "Objective 2",
+      "status": "done",
+      "category": "company",
+      "description": "Lorem Ipsum",
+      "comments": "Any text",
+      "goals": "Not today, my friend"
+    }
+  ],
+  "plans": [
+    {
+      "id": 1,
+      "title": "Plan 1",
+      "status": true,
+      "userName": "author",
+      "startDate": "2022-04-01",
+      "endDate": "2022-04-30",
+      "comments": "Text of plan",
+      "objectives": "Will be filled later"
+    },
+    {
+      "id": 2,
+      "title": "Plan 2",
+      "status": false,
+      "userName": "John Smith",
+      "startDate": "2022-06-30",
+      "endDate": "2022-09-30",
+      "comments": "Text of plan 2",
+      "objectives": "Will be filled later"
+    }
+  ]
+}
