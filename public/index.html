@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html lang="">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+    <link href="<%= BASE_URL %>favicon.png" rel="icon"/>
+    <title>Performee</title>
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <!-- Material Icons -->
+    <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+            rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <script
+            crossorigin="anonymous"
+            src="https://kit.fontawesome.com/42d5adcbca.js"
+    ></script>
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            rel="stylesheet"
+    />
 </head>
-<body>
+<body class="bg-gray-200">
 <noscript>
-    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
-        Please enable it to continue.</strong>
+    <strong
+    >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+    >
 </noscript>
-<div id="app"></div>
+<!--TODO: class="g-sidenav-show"-->
+<div class="g-sidenav-show" id="app"></div>
 <!-- built files will be auto injected -->
 </body>
 </html>
